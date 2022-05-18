@@ -1,0 +1,70 @@
+/* CardBox */
+.listComment {    
+    margin-bottom: 12px;
+    width: 90%;
+    margin: auto;
+
+    
+}
+.card-box header {
+    padding: 8px 10px;
+    color: #2F52B2;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+.comment-form {
+    padding: 20px;
+}
+input, select, textarea {
+    font-size: 100%;
+    font-family: inherit;
+}
+.comment-list {
+    margin: 10px 0;
+    background: #fff;
+    color: #333;
+}
+/*  O binh luan*/
+.comment-form textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+#comment-char-count {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+}
+.comment-form .text-right {
+    text-align: right;
+}
+
+/* User */
+.user1 {
+    display:flex;
+    margin-top: 10px;
+    border: 1px dashed #ddd;
+}
+.usertitle {
+    margin-left: 10px;
+}
+.time {
+    margin-left: 50px;
+}
+.content {
+    margin-left: 10px;
+}
+.avatar {
+    float: left;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    /* line-height: 34px; */
+    /* background: #ddd; */
+    text-align: center;
+    border: 3px solid #777;
+}

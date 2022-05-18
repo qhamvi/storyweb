@@ -1,0 +1,66 @@
+.listChapFull  {
+    padding-top: 20px;
+    margin-bottom: 12px;
+    width: 90%;
+    margin: auto;
+}
+.title5Chap {
+    margin-left: 10px;
+}
+.titleChap {
+    font-size: large;
+    color: black;
+}
+
+/* Page Number PAGINATION */
+.numberPage {
+    display: inline-block;
+  }
+  
+.numberPage a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+/* NUMBER PAGE */
+/* Set the style for the a tag */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 12px 18px;
+    text-decoration: none;
+    }
+    /* set the style for the active class */
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    /*Circle Design with CSS*/
+    border-radius: 50%;
+}
+    /* add background color when user hovers on inactive class */
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+}
+ol, ul {
+    list-style: none;
+}  
+.numberPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}  
+
+.chapters li {
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.chapters {
+  margin-left: -50px;
+}
+.chap {
+    font-size: 16px;
+}

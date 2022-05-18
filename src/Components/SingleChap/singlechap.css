@@ -1,0 +1,44 @@
+
+header {
+    margin: 15px;
+    padding: 10px;
+    
+}
+.story-title {
+    margin-top: 20px;
+}
+.singleTitle {
+    border: 2px dotted #f05a5a;
+    border-radius: 10px;
+    text-align: center;
+}
+.doanhmuc {
+    text-align: center;
+}
+
+.singleChap {
+    margin: 10px auto;
+    background-color: rgba(241, 229, 229, 0.849);
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 4xp solid black;
+}
+.chapContent {
+    margin: 15px;
+    padding: 10px;
+}
+/* DROPDOWN */
+.dropdown-chap {
+    display: none;
+    position: absolute;
+    align-items: center;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-chap {
+    display: block;
+  }

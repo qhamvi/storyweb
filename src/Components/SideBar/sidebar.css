@@ -1,0 +1,89 @@
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4 ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #222;
+    /* font-weight: 600; */
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem > img {
+    margin-top: 15px;
+    display: block;
+  max-width:230px;
+  max-height:230px;
+  width: auto;
+  height: auto;
+}
+
+.sidebarItem > p {
+    padding: 30px;
+}
+
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 15px;
+   
+    
+}
+.sidebarListItemLike {
+    display: inline-block;
+    width: 85%;
+    /* background-color: tomato; */
+    
+}
+.sidebarListItemHistory {
+    display: inline-block;
+    width: 85%;
+    /* background-color: tomato; */
+}
+.sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.iconTopic {
+    color: #666;
+    font-size: 18px;
+    
+}

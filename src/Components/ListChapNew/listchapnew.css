@@ -1,0 +1,25 @@
+.listChapNew  {
+    margin-bottom: 12px;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.title5Chap {
+    margin-left: 10px;
+}
+.titleChap {
+    font-size: large;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+
+.chapters li {
+    border-bottom: 1px dashed #ddd;
+    margin: 10px;
+}
+
+.chapters {
+  margin-left: -50px;
+}
