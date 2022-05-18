@@ -1,10 +1,11 @@
-import ViewTopic from '../../Admin_Component/Topic/ViewTopic'
-import './pageadmin.css'
+import React from 'react';
+import './pageadmin.css';
 
 export default function PageAdmin() {
   return (
-    <div className="pageadmin">
-        <ViewTopic/>
-    </div>
+    <>
+    <h1>Xin chafo ADmin</h1>
+    <p>asfmaskfnalngalknfasklgas</p>
+    </>
   )
 }
