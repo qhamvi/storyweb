@@ -12,16 +12,13 @@ export default function SidebarAdmin() {
                     </li>
                     <li>
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                            className="dropdown-toggle">Pages</a>
+                            className="dropdown-toggle">Topic</a>
                         <ul className="collapse list-unstyled" id="pageSubmenu">
                             <li>
-                                <a href="#">Page 1</a>
+                                <Link to="/list/topic">Page 1</Link>
                             </li>
                             <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
+                                <Link to="/create/topic">Page 2</Link>
                             </li>
                         </ul>
                     </li>
