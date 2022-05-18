@@ -2,7 +2,7 @@ import React from "react";
 import datatable from 'datatables.net';
 import datatableDT from 'datatables.net-dt';
 import $ from 'jquery';
-import { Table } from 'react-bootstrap';
+import { Table, Button } from 'react-bootstrap';
 import axios from "axios";
 
 const StoryList = () => {

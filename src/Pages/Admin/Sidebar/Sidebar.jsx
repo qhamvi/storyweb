@@ -12,6 +12,7 @@ export default function SidebarAdmin() {
                     </li>
                     <li>
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+<<<<<<< HEAD
                             className="dropdown-toggle">Pages</a>
                         <ul className="collapse list-unstyled" id="pageSubmenu">
                             <li>
@@ -22,6 +23,15 @@ export default function SidebarAdmin() {
                             </li>
                             <li>
                                 <a href="#">Page 3</a>
+=======
+                            className="dropdown-toggle">Topic</a>
+                        <ul className="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <Link to="/list/topic">Page 1</Link>
+                            </li>
+                            <li>
+                                <Link to="/create/topic">Page 2</Link>
+>>>>>>> d84393955412003fba68f8a7ad08d70f34ebabd3
                             </li>
                         </ul>
                     </li>
