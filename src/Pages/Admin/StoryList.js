@@ -2,7 +2,7 @@ import React from "react";
 import datatable from 'datatables.net';
 import datatableDT from 'datatables.net-dt';
 import $ from 'jquery';
-import { Table } from 'react-bootstrap';
+import { Table, Button } from 'react-bootstrap';
 import axios from "axios";
 
 const StoryList = () => {
@@ -15,8 +15,12 @@ const StoryList = () => {
 
     React.useEffect(() => {
         axios.get('/stories').then(res => setStories(res.data))
-    }, [])
+    }, [stories])
 
+    const acceptStory = (story_id) => {
+        axios.put('/stories/true/'+story_id).then(res => console.log(res.data))
+    } 
+    
     return (
         <>
             <h1>Danh sách truyện</h1>
@@ -44,7 +48,9 @@ const StoryList = () => {
                                         <td>{story.author}</td>
                                         <td>{story.collector}</td>
                                         <td>{story.numberChap}</td>
-                                        <td></td>
+                                        <td>
+                                            <Button variant="link" onClick={() => acceptStory(story.id)}>Duyệt</Button>
+                                        </td>
                                     </tr>
                                 )
                             }
